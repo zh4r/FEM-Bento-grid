@@ -226,17 +226,18 @@ section:nth-of-type(8) {
     }
 }
 
+
+
 @media (min-width: 1200px) {
     body {
             height: 100vh;
             margin: 0;
 
         main {
-            /* background: hsl(36, 100%, 99%); */
             max-width: 100%;
             height: 90vh;
             display: grid;
-            gap: 32px;
+            gap: 26px;
 
             grid-template-columns:repeat(4, 270px) ;
             grid-template-rows: auto;
@@ -251,23 +252,23 @@ section:nth-of-type(8) {
         }
 
         section:nth-of-type(1) {
-            width: 540px;
-            height: 320px;
+            width: 545px;
+            height: 325px;
             grid-column: 2 / 2;
             grid-row: 1 / 1;
         }
 
         section:nth-of-type(2) {
-            height: 260px;
-            width: 260px;
+            height: 250px;
+            width: 250px;
             grid-column: 2 / 2;
             grid-row: 2 / 2;
             align-self: center;
         }
 
         section:nth-of-type(3) {
-            height: 260px;
-            width: 260px;
+            height: 250px;
+            width: 250px;
             grid-column: 3 / 3;
             grid-row: 2 / 2;
             align-self: center;
@@ -295,26 +296,27 @@ section:nth-of-type(8) {
         }
 
         section:nth-of-type(6) {
-            height: 260px;
-            width: 260px;
+            height: 250px;
+            width: 250px;
             grid-column: 2 / 2;
             grid-row: 3 / 3;
             align-self: center;
         }
 
         section:nth-of-type(7) {
-            height: 410px;
-            width: 250px;
+            height: 415px;
+            width: 260px;
             grid-row: 1 / span 2;
             grid-column: 1 / 1;
+            align-self: flex-start;
         }
 
         section:nth-of-type(8) {
-            height: 410px;
-            width: 250px;
+            height: 435px;
+            width: 260px;
             grid-column: 1;
             grid-row: 2 / span 2;
-            align-self: center;
+            align-self: flex-end;
         }
     }
 }
